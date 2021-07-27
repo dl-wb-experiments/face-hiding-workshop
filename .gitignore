@@ -13,6 +13,7 @@ ipython_config.py
 # Environments
 .env
 .idea
+venv
 
 notebook/data/*
 !notebook/data/input.mp4
