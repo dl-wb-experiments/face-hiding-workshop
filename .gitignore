@@ -16,4 +16,9 @@ ipython_config.py
 
 notebook/data/*
 !notebook/data/input.mp4
-!notebook/data/input.mp4
+
+# Python virtual environment
+env
+.env
+venv
+.venv
