@@ -17,5 +17,5 @@ source .venv/bin/activate
 3. Run Jupyter Lab:
 ```shell
 cd notebook
-python -m jupyter-lab
+python -m jupyter lab
 ```
