@@ -1,5 +1,4 @@
-retinaface-post-processing==0.0.4
-IPython==7.25.0
+IPython==7.5.0
 matplotlib==3.3.4
 # downloader
 pyyaml>=5.4.1
