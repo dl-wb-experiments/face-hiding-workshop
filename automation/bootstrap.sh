@@ -9,7 +9,7 @@ python3.7 -m pip install virtualenv
 python3.7 -m virtualenv venv
 
 
-sudo apt-get install \
+sudo apt-get --yes install \
     apt-transport-https \
     ca-certificates \
     curl \
@@ -23,8 +23,9 @@ echo \
   $(lsb_release -cs) stable" | sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
 
 sudo apt-get update
-sudo apt-get install docker-ce docker-ce-cli containerd.io
+sudo apt-get --yes install docker-ce docker-ce-cli containerd.io
 sudo usermod -aG docker ${USER}
+newgrp docker
 
 mkdir -p -m 777 ~/.workbench
 apt install -y git
