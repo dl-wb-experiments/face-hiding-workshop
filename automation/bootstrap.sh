@@ -1,3 +1,7 @@
+# First time opening the remote machine
+# sudo apt-get --yes update
+# apt install --yes git
+# git clone https://github.com/dl-wb-experiments/face-hiding-workshop
 sudo apt-get --yes update
 sudo update-pciids
 sudo apt-get --yes upgrade
@@ -25,7 +29,7 @@ echo \
 sudo apt-get update
 sudo apt-get --yes install docker-ce docker-ce-cli containerd.io
 sudo usermod -aG docker ${USER}
-newgrp docker
+#newgrp docker
 
 mkdir -p -m 777 ~/.workbench
 apt install -y git
