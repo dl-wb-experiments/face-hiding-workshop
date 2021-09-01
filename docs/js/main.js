@@ -10,7 +10,7 @@ const app = {
 
 
 async function setUpHosts() {
-  fetch('./gh-pages/hosts.json')
+  fetch('./hosts.json')
     .then((response) => response.json())
     .then((jsonData) => {
       app.hosts = jsonData.hosts;
