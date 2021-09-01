@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>PyCon Workshop</title>
+  <link href="./gh-pages/css/primer.css" rel="stylesheet" />
+  <link href="./gh-pages/css/custom.css" rel="stylesheet" />
+</head>
+<body class="p-3" onload="configureApp()">
+  <div>
+    <img src="./gh-pages/images/pycon_logo2.png" alt="PyCon Logo" width="200"/>
+  </div>
+  <h1 class="h1 mb-2 mt-2">PyCon Workshop</h1>
+  <h2 class="h2 mb-4">OpenVINO™ Deep Learning Workbench: Discover Deep Learning Basics and Write Your First AI Application</h2>
+
+  <form class="pb-6">
+    <div id="userNumberFormGroup" class="form-group">
+      <div class="form-group-header">
+        <h4 class="h4 mb-2">Type your user number and press "Open" to navigate the workshop</h4>
+        <label for="userNumberInput">User number:</label>
+      </div>
+      <div class="form-group-body">
+        <input
+          class="form-control"
+          type="number"
+          id="userNumberInput"
+          aria-describedby="userNumberInputValidation"
+        />
+        <button id="openButton" type="button" class="btn btn-primary" aria-disabled="true">Open</button>
+      </div>
+      <p class="note error" id="userNumberInputValidation"></p>
+    </div>
+  </form>
+
+  <script src="./gh-pages/js/main.js"></script>
+</body>
+</html>
