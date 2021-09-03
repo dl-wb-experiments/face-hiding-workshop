@@ -101,6 +101,6 @@ function handleOpenButtonClick() {
 function getHostURL(host) {
   const url = new URL(`http://${host}`);
   url.port = '5665';
-  url.pathname = '/jupyter/lab/tree/workshop/notebook/Practice.ipynb';
+  url.pathname = '/jupyter/lab/tree/workshop/notebook/workshop.ipynb';
   return url.toString()
 }
