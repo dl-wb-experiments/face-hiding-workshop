@@ -1,6 +1,6 @@
-# The notebook to learn of hiding detected faces using OpenVINO
+# OpenVINO™ Deep Learning Workbench: Discover Deep Learning Basics and Write Your First AI Application
 
-## How to run
+## How to run the notebook
 
 1. Clone the repository:
 ```shell
