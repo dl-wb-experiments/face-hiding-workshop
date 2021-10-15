@@ -1,9 +1,15 @@
 #!/bin/bash
 
-sudo rm -rf ~/.workbench/workshop
-git clone https://github.com/dl-wb-experiments/face-hiding-workshop ~/.workbench/workshop
+docker stop workbench
+docker rm workbench
 
-chmod -R 777 ~/.workbench/workshop/
+USER_HOME_DIR=/home/workbench
+FULL_WORKSHOP_PATH=${USER_HOME_DIR}/.workbench/workshop
 
-source venv/bin/activate
-openvino-workbench --image openvino/workbench:2021.4.0.2 --assets-directory ~/.workbench --detached
+rm -rf ${FULL_WORKSHOP_PATH}
+git clone https://github.com/dl-wb-experiments/face-hiding-workshop ${FULL_WORKSHOP_PATH}
+
+chmod -R 777 ${FULL_WORKSHOP_PATH}
+
+source ${USER_HOME_DIR}/venv/bin/activate
+openvino-workbench --image openvino/workbench:2021.4.1.1 --assets-directory ${USER_HOME_DIR}/.workbench --detached
