@@ -2,6 +2,7 @@
 # sudo apt-get --yes update
 # apt install --yes git
 # git clone https://github.com/dl-wb-experiments/face-hiding-workshop
+# bash face-hiding-workshop/automation/bootstrap.sh 
 sudo apt-get --yes update
 sudo update-pciids
 sudo apt-get --yes upgrade
