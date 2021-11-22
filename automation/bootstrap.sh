@@ -3,6 +3,11 @@
 # apt install --yes git
 # git clone https://github.com/dl-wb-experiments/face-hiding-workshop
 # bash face-hiding-workshop/automation/bootstrap.sh 
+# To benchmark:
+# pip install openvino-dev
+# pip install opencv-python-headless
+# apt install --yes libpython3.7
+# benchmark_app -m .workbench/models/1/original/ssd_mobilenet_v2_coco.xml -i .workbench/datasets/3/0.jpg -b 1 -nstreams 1 -d CPU
 sudo apt-get --yes update
 sudo update-pciids
 sudo apt-get --yes upgrade
