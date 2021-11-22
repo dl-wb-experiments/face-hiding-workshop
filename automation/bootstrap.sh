@@ -4,6 +4,7 @@
 # git clone https://github.com/dl-wb-experiments/face-hiding-workshop
 # bash face-hiding-workshop/automation/bootstrap.sh 
 # To benchmark:
+# source venv/bin/activate
 # pip install openvino-dev
 # pip install opencv-python-headless
 # apt install --yes libpython3.7
