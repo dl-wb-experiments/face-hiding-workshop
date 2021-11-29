@@ -45,4 +45,4 @@ chmod -R 777 ~/.workbench/workshop/
 
 source venv/bin/activate
 python -m pip install openvino-workbench
-openvino-workbench --image openvino/workbench:2021.4.0.2 --assets-directory ~/.workbench --detached
+openvino-workbench --image openvino/workbench:2021.4.2 --assets-directory ~/.workbench --detached
