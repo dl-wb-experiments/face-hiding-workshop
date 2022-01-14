@@ -1,5 +1,7 @@
 # OpenVINO™ Deep Learning Workbench: Discover Deep Learning Basics and Write Your First AI Application
 
+> :warning: **This repository was archived.** You can find the latest materials for DL Workshops in the repository: https://github.com/dl-wb-experiments/workshops
+
 ## How to run the notebook
 
 1. Clone the repository:
